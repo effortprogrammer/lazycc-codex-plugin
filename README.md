@@ -2,7 +2,7 @@
 
 plugin for [lazy-claudecode](https://github.com/effortprogrammer/lazy-claudecode) — delegate tasks, run code reviews, and manage background jobs via OpenAI Codex CLI from within Claude Code.
 
-> Inspired from [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) (MIT License, see [NOTICE](./NOTICE)).
+> Inspired from [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) 
 
 ## Features
 
