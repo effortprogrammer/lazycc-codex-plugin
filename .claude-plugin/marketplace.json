@@ -1,0 +1,17 @@
+{
+  "name": "lazycc-codex",
+  "owner": { "name": "Hojin Yang" },
+  "metadata": {
+    "description": "Codex companion plugin for lazy-claudecode — delegate tasks, run code reviews, and manage background jobs via OpenAI Codex CLI.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "codex",
+      "description": "Use Codex from Claude Code to review code or delegate tasks. Companion plugin for lazy-claudecode.",
+      "version": "0.1.0",
+      "author": { "name": "Hojin Yang" },
+      "source": "./plugins/codex"
+    }
+  ]
+}

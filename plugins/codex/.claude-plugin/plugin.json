@@ -1,0 +1,6 @@
+{
+  "name": "codex",
+  "version": "0.1.0",
+  "description": "Use Codex from Claude Code to review code or delegate tasks. Companion plugin for lazy-claudecode.",
+  "author": { "name": "Hojin Yang" }
+}

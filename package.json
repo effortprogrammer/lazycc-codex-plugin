@@ -1,0 +1,28 @@
+{
+  "name": "lazycc-codex-plugin",
+  "version": "0.1.0",
+  "description": "Codex companion plugin for lazy-claudecode — delegate tasks, run code reviews, and manage background jobs via OpenAI Codex CLI.",
+  "type": "module",
+  "author": "Hojin Yang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/effortprogrammer/lazycc-codex-plugin.git"
+  },
+  "keywords": [
+    "claude-code",
+    "codex",
+    "openai",
+    "lazy-claudecode",
+    "plugin",
+    "code-review",
+    "delegation"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    ".claude-plugin/",
+    "plugins/"
+  ]
+}
