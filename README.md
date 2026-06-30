@@ -55,41 +55,6 @@ cd lazycc-codex-plugin
 /plugin install /path/to/lazycc-codex-plugin
 ```
 
-## Architecture
-
-```
-lazycc-codex-plugin/
-├── .claude-plugin/
-│   └── marketplace.json          # Marketplace listing
-├── plugins/codex/
-│   ├── .claude-plugin/
-│   │   └── plugin.json           # Plugin identity
-│   ├── hooks/
-│   │   └── hooks.json            # Hook definitions
-│   ├── commands/                  # Slash command definitions
-│   │   ├── review.md
-│   │   ├── adversarial-review.md
-│   │   ├── rescue.md
-│   │   ├── setup.md
-│   │   ├── status.md
-│   │   ├── result.md
-│   │   ├── cancel.md
-│   │   └── transfer.md
-│   ├── agents/
-│   │   └── codex-rescue.md       # Rescue subagent
-│   ├── scripts/
-│   │   ├── codex-companion.mjs   # Main CLI entry point
-│   │   ├── app-server-broker.mjs # Shared app-server multiplexer
-│   │   ├── session-lifecycle-hook.mjs
-│   │   ├── stop-review-gate-hook.mjs
-│   │   └── lib/                  # Core modules
-│   ├── prompts/                  # Prompt templates
-│   ├── schemas/                  # JSON schemas for structured output
-│   └── skills/                   # Bundled skills
-├── package.json
-├── LICENSE
-└── NOTICE
-```
 
 ## How It Works
 
@@ -102,4 +67,3 @@ lazycc-codex-plugin/
 
 MIT — see [LICENSE](./LICENSE).
 
-Derived from [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) © 2025 OpenAI (MIT) — see [NOTICE](./NOTICE).
